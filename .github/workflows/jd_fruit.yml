@@ -32,7 +32,7 @@ jobs:
         run: |
           cd ~/jd_scripts
           npm install
-      - name: '运行 【挂机领金币/宝箱专用
+      - name: '运行 京东农场'
 】'
         run: |
           cd ~/jd_scripts
