@@ -32,8 +32,7 @@ jobs:
         run: |
           cd ~/jd_scripts
           npm install
-      - name: '运行 京东农场'
-】'
+      - name: '运行 【京东农场】'
         run: |
           cd ~/jd_scripts
           node jd_fruit.js
