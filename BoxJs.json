@@ -1,0 +1,7 @@
+{
+    "name": "Mick",
+    "description": "https://github.com/songyangzz/QuantumultX",
+    "task": [
+        "0 0-23/1 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js, tag=testflight公测监控, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/testflight.png, enabled=true",
+    ]
+}
