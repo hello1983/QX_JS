@@ -22,7 +22,7 @@ jobs:
                   npm install
             - name: "运行【V2ex自动签到】"
               run: |
-                  node function/v2ex.js
+                  node v2ex.js
               env:
                   V2EXCK: ${{ secrets.V2EXCK }}
                   SEND_KEY: ${{ secrets.SEND_KEY }}
