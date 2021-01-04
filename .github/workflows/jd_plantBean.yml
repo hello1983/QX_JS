@@ -1,5 +1,5 @@
 
-name: jd_plantBean.js
+name: 京东种豆
 
 on:
   workflow_dispatch:
