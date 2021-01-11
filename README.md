@@ -1,1 +1,1 @@
-QX.JS
+QX_JS_MySelf
