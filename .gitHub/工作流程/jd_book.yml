@@ -35,10 +35,10 @@ jobs:
         run: |
           cd ~/jd_scripts
           npm install
-      - name: '运行 【摇京豆脚本】'
+      - name: '运行 【京东书店】'
         run: |
           cd ~/jd_scripts
-          node jd_club_lottery.js
+          node jd_bookshop.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
