@@ -1,6 +1,6 @@
 
 
-name: 京东_家庭
+name: 京东家庭
 
 on:
   workflow_dispatch:
@@ -34,7 +34,7 @@ jobs:
         run: |
           cd ~/jd_scripts
           npm install
-      - name: '运行 【京东_家庭】'
+      - name: '运行 【京东家庭】'
         run: |
           cd ~/jd_scripts
           node jd_family.js
