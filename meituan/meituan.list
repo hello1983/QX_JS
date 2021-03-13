@@ -1,0 +1,7 @@
+
+hostname=i.meituan.com
+
+^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/ url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js
+
+
+# 1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js
